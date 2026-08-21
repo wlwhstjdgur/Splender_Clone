@@ -352,3 +352,20 @@
 [2026-08-21T01:37:53.190Z] [INFO] log Shutdown request received from client editor-17304-o94w5k
 [2026-08-21T01:37:53.196Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
 [2026-08-21T01:37:53.199Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-08-21T01:39:34.554Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=37808
+[2026-08-21T01:39:34.562Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.97)
+[2026-08-21T01:39:34.563Z] [INFO] log Starting relay server...
+[2026-08-21T01:39:34.564Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","37808","--shutdown-delay","180","--log-dir","C:\\GitProjects\\Splender_Clone\\Splender\\Logs"]
+[2026-08-21T01:39:34.565Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"37808","shutdownDelaySeconds":180}
+[2026-08-21T01:39:34.568Z] [INFO] log Initializing relay components...
+[2026-08-21T01:39:34.569Z] [INFO] log Creating RelayEditor...
+[2026-08-21T01:39:34.593Z] [INFO] log WebSocket server started
+[2026-08-21T01:39:34.594Z] [INFO] log Relay server initialization completed
+[2026-08-21T01:39:34.595Z] [INFO] log MCP Client initialized at port: 9002
+[2026-08-21T01:39:34.615Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-08-21T01:39:34.639Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-08-21T01:39:34.887Z] [INFO] log Unity client connected with ID: editor-37808-qk03y9 (relay 1.0.12-build.97)
+[2026-08-21T01:39:34.888Z] [INFO] connection.established clientId=editor-37808-qk03y9 port=9001
+[2026-08-21T08:58:11.299Z] [INFO] log Shutdown request received from client editor-37808-qk03y9
+[2026-08-21T08:58:11.303Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-08-21T08:58:11.305Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
