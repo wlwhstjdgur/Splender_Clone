@@ -1,0 +1,66 @@
+Assets/
+├── Scripts/
+│   ├── Enums/
+│   │   ├── GemType.cs                       # 보석 색상 (Diamond~Gold)
+│   │   └── ActionType.cs                    # 4가지 행동 타입 (Take3, Take2, Reserve, Purchase)
+│   │
+│   ├── Data/                                # ScriptableObject 틀 (불변 규칙)
+│   │   ├── GemTokenConfig.cs                # 인원수별 보석 초기 개수
+│   │   ├── DevelopmentCardData.cs           # 카드 1장의 고정 데이터 (레벨/비용/보너스/점수)
+│   │   ├── DevelopmentCardDeckConfig.cs     # 레벨별 카드 90장 전체 덱 정의
+│   │   ├── NobleTileData.cs                 # 귀족 타일 1개의 고정 데이터 (요구 보너스/점수)
+│   │   └── NobleTileConfig.cs               # 귀족 타일 전체 세트 정의
+│   │
+│   ├── Runtime/                             # 게임 중 변하는 상태
+│   │   ├── GemBank.cs                       # 은행 보유 보석 수량
+│   │   ├── PlayerGemInventory.cs            # 플레이어 보유 보석 수량
+│   │   ├── PlayerBonusInventory.cs          # 플레이어 보유 보너스(구매 카드 색상 누적)
+│   │   ├── PlayerCardHolder.cs              # 플레이어 예약/구매 카드 목록 (예약 최대 3장)
+│   │   ├── PlayerNobleHolder.cs             # 플레이어 획득 귀족 목록
+│   │   ├── CardMarket.cs                    # 레벨별 덱 + 공개된 4장씩 관리
+│   │   ├── NobleMarket.cs                   # 현재 배치된 귀족 타일 관리
+│   │   └── PlayerState.cs                   # 위 런타임 클래스들을 묶는 플레이어 종합 상태
+│   │
+│   ├── Managers/                            # 행위/흐름 조율
+│   │   ├── GameSetupManager.cs              # 인원수별 config 선택 및 초기화
+│   │   ├── TurnManager.cs                   # 턴 순서, 턴당 1행동 제한
+│   │   ├── GemTransactionManager.cs         # 보석 3개/2개 가져가기, 반납(10개 초과 처리)
+│   │   ├── CardActionManager.cs             # 카드 예약/구매 처리
+│   │   ├── NobleVisitManager.cs             # 턴 종료 시 귀족 조건 자동 체크
+│   │   ├── ScoreManager.cs                  # 점수 계산 및 갱신
+│   │   └── GameEndManager.cs                # 15점 달성 체크, 라운드 마무리, 동점 처리
+│   │
+│   ├── Actions/                             # 4가지 행동을 각각 캡슐화 (선택적 세분화)
+│   │   ├── ITurnAction.cs                   # 행동 공통 인터페이스
+│   │   ├── TakeThreeDifferentAction.cs      # 서로 다른 색 보석 3개
+│   │   ├── TakeTwoSameAction.cs             # 같은 색 보석 2개
+│   │   ├── ReserveCardAction.cs             # 카드 예약 + 황금 획득
+│   │   └── PurchaseCardAction.cs            # 카드 구매 (보너스 차감, 황금 대체)
+│   │
+│   ├── Core/
+│   │   └── GameState.cs                     # 전체 게임 상태 총괄 (은행/마켓/귀족/플레이어들/현재턴)
+│   │
+│   └── UI/
+│       ├── GemBankView.cs                   # 은행 보석 UI
+│       ├── GemTokenView.cs                  # 개별 보석 토큰 아이콘
+│       ├── CardMarketView.cs                # 공개 카드 12장 UI
+│       ├── DevelopmentCardView.cs           # 카드 1장 UI (비용/보너스/점수 표시)
+│       ├── NobleMarketView.cs               # 귀족 타일 UI
+│       ├── PlayerBoardView.cs               # 플레이어 개인 보드 (보석/보너스/점수)
+│       ├── PlayerHandView.cs                # 예약 카드(비공개) UI
+│       ├── ScoreboardView.cs                # 전체 플레이어 점수판
+│       └── ActionMenuView.cs                # 4가지 행동 선택 UI
+│
+└── Configs/
+    ├── GemTokens/
+    │   ├── GemTokenConfig_2Players.asset
+    │   ├── GemTokenConfig_3Players.asset
+    │   └── GemTokenConfig_4Players.asset
+    │
+    ├── NobleTiles/
+    │   └── NobleTileConfig_Base.asset       # 귀족 타일 기본판 세트
+    │
+    └── DevelopmentCards/
+        ├── DevelopmentCardDeckConfig_Level1.asset   # 40장
+        ├── DevelopmentCardDeckConfig_Level2.asset   # 30장
+        └── DevelopmentCardDeckConfig_Level3.asset   # 20장

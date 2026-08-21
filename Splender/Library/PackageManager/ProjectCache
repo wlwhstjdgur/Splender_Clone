@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639222006756057504
+      ticks: 639228006484431659
     m_Hash: 650070285
   m_LockFileStatus:
     m_FilePath: C:/GitProjects/Splender_Clone/Splender/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639222007439730680
+      ticks: 639228006484530542
     m_Hash: 3963804452
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -110,6 +110,8 @@ m_ResolvedPackages:
     - 2.15.0-pre.2
     - 2.16.0-pre.1
     - 2.17.0-pre.1
+    - 2.18.0-pre.1
+    - 2.18.0-pre.2
     compatible:
     - 1.0.0-pre.2
     - 1.0.0-pre.3
@@ -155,6 +157,8 @@ m_ResolvedPackages:
     - 2.15.0-pre.2
     - 2.16.0-pre.1
     - 2.17.0-pre.1
+    - 2.18.0-pre.1
+    - 2.18.0-pre.2
     recommended: 2.9.0-pre.2
     deprecated: []
   dependencies:
@@ -1018,10 +1022,12 @@ m_ResolvedPackages:
     - 2.0.25
     - 2.0.26
     - 2.0.27
+    - 2.0.28
     compatible:
     - 2.0.26
     - 2.0.27
-    recommended: 2.0.27
+    - 2.0.28
+    recommended: 2.0.28
     deprecated: []
   dependencies:
   - name: com.unity.test-framework

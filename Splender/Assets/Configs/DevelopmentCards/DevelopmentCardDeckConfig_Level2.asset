@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99daa10c357eeb0439371f01ef80d8ed, type: 3}
+  m_Name: DevelopmentCardDeckConfig_Level2
+  m_EditorClassIdentifier: Assembly-CSharp::DevelopmentCardDeckConfig
+  level: 2
+  cards:
+  - id: 41
+    level: 2
+    bonus: 4
+    victoryPoints: 1
+    costDiamond: 3
+    costSapphire: 2
+    costEmerald: 2
+    costRuby: 0
+    costOnyx: 0
+  - id: 42
+    level: 2
+    bonus: 4
+    victoryPoints: 1
+    costDiamond: 3
+    costSapphire: 0
+    costEmerald: 3
+    costRuby: 0
+    costOnyx: 2
+  - id: 43
+    level: 2
+    bonus: 4
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 1
+    costEmerald: 4
+    costRuby: 2
+    costOnyx: 0
+  - id: 44
+    level: 2
+    bonus: 4
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 5
+    costRuby: 3
+    costOnyx: 0
+  - id: 45
+    level: 2
+    bonus: 4
+    victoryPoints: 2
+    costDiamond: 5
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 0
+  - id: 46
+    level: 2
+    bonus: 4
+    victoryPoints: 3
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 6
+  - id: 47
+    level: 2
+    bonus: 1
+    victoryPoints: 1
+    costDiamond: 0
+    costSapphire: 2
+    costEmerald: 2
+    costRuby: 3
+    costOnyx: 0
+  - id: 48
+    level: 2
+    bonus: 1
+    victoryPoints: 1
+    costDiamond: 0
+    costSapphire: 2
+    costEmerald: 3
+    costRuby: 0
+    costOnyx: 3
+  - id: 49
+    level: 2
+    bonus: 1
+    victoryPoints: 2
+    costDiamond: 5
+    costSapphire: 3
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 0
+  - id: 50
+    level: 2
+    bonus: 1
+    victoryPoints: 2
+    costDiamond: 2
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 1
+    costOnyx: 4
+  - id: 51
+    level: 2
+    bonus: 1
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 5
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 0
+  - id: 52
+    level: 2
+    bonus: 1
+    victoryPoints: 3
+    costDiamond: 0
+    costSapphire: 6
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 0
+  - id: 53
+    level: 2
+    bonus: 0
+    victoryPoints: 1
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 3
+    costRuby: 2
+    costOnyx: 2
+  - id: 54
+    level: 2
+    bonus: 0
+    victoryPoints: 1
+    costDiamond: 2
+    costSapphire: 3
+    costEmerald: 0
+    costRuby: 3
+    costOnyx: 0
+  - id: 55
+    level: 2
+    bonus: 0
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 1
+    costRuby: 4
+    costOnyx: 2
+  - id: 56
+    level: 2
+    bonus: 0
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 5
+    costOnyx: 3
+  - id: 57
+    level: 2
+    bonus: 0
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 5
+    costOnyx: 0
+  - id: 58
+    level: 2
+    bonus: 0
+    victoryPoints: 3
+    costDiamond: 6
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 0
+  - id: 59
+    level: 2
+    bonus: 2
+    victoryPoints: 1
+    costDiamond: 3
+    costSapphire: 0
+    costEmerald: 2
+    costRuby: 3
+    costOnyx: 0
+  - id: 60
+    level: 2
+    bonus: 2
+    victoryPoints: 1
+    costDiamond: 2
+    costSapphire: 3
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 2
+  - id: 61
+    level: 2
+    bonus: 2
+    victoryPoints: 2
+    costDiamond: 4
+    costSapphire: 2
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 1
+  - id: 62
+    level: 2
+    bonus: 2
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 5
+    costEmerald: 3
+    costRuby: 0
+    costOnyx: 0
+  - id: 63
+    level: 2
+    bonus: 2
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 5
+    costRuby: 0
+    costOnyx: 0
+  - id: 64
+    level: 2
+    bonus: 2
+    victoryPoints: 3
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 6
+    costRuby: 0
+    costOnyx: 0
+  - id: 65
+    level: 2
+    bonus: 3
+    victoryPoints: 1
+    costDiamond: 2
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 2
+    costOnyx: 3
+  - id: 66
+    level: 2
+    bonus: 3
+    victoryPoints: 1
+    costDiamond: 0
+    costSapphire: 3
+    costEmerald: 0
+    costRuby: 2
+    costOnyx: 3
+  - id: 67
+    level: 2
+    bonus: 3
+    victoryPoints: 2
+    costDiamond: 1
+    costSapphire: 4
+    costEmerald: 2
+    costRuby: 0
+    costOnyx: 0
+  - id: 68
+    level: 2
+    bonus: 3
+    victoryPoints: 2
+    costDiamond: 3
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 5
+  - id: 69
+    level: 2
+    bonus: 3
+    victoryPoints: 2
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 0
+    costOnyx: 5
+  - id: 70
+    level: 2
+    bonus: 3
+    victoryPoints: 3
+    costDiamond: 0
+    costSapphire: 0
+    costEmerald: 0
+    costRuby: 6
+    costOnyx: 0

@@ -521,6 +521,11 @@
 -analyzer:"Library/PackageCache/com.unity.ai.inference@9a123aee5df7/Runtime/Core/SourceGenerator/SourceGenerators.dll"
 -analyzer:"Library/PackageCache/com.unity.dt.app-ui@b097002a00c2/Runtime/MVVM/SourceGenerators/netstandard2.0/MVVMSourceGenerators.dll"
 -analyzer:"Library/PackageCache/com.unity.dt.app-ui@b097002a00c2/Runtime/SourceGenerators/netstandard2.0/EnumToLowerCase.dll"
+"Assets/Scripts/Data/DevelopmentCardData.cs"
+"Assets/Scripts/Data/DevelopmentCardDeckConfig.cs"
+"Assets/Scripts/Data/GemTokenConfig.cs"
+"Assets/Scripts/Enums/GemType.cs"
+"Assets/Scripts/Managers/GameManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
